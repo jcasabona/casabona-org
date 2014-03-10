@@ -1,0 +1,329 @@
+/**Normalize.css**/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}body,button,input,select,textarea{font-family:sans-serif}a{color:#00e}a:visited{color:#551a8b}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/** The Crux of the Matter **/
+
+body{
+	background: #EFEFEF;
+	font-family: "Open Sans Condensed", Helvetica, sans-serif;
+	font-size: 62.5%;
+	text-align: center;
+	color: #333333;
+	}
+	
+a, a:visited{
+	color: #000088;
+	text-decoration: none;
+	}
+	
+a:hover{
+	color: #0000FF;
+	}
+	
+aside{
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding: 0.4em;
+	}
+	
+aside .widget{
+	margin-top: 10px;
+	padding: 0.6em;
+	}
+	
+	
+aside .widget h3{
+	margin: 0px;
+	padding: 5px 2%;
+	color: #880000;
+	font-size: 1.7em;
+	}
+	
+	
+footer{
+	color: #FFFFFF;
+	}
+	
+footer a{
+	color: #f1ffdc;
+	}
+	
+footer a:hover{
+	color: #CFCFCF;
+	}
+	
+h1,h2,h3{
+	font-family: Futura, sans-serif;
+	}
+	
+img,object,wmbed,video{
+	max-width: 100%;
+	height: auto;
+	}
+	
+strong{ font-weight: bold;}
+em{ font-style: italic; font-size: 0.9em;}
+	
+.center{
+	text-align: center;
+	}
+
+#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 1300px;
+	font-size: 1.4em;
+	padding: 15px 5%;
+	}
+	
+#wrapper h1{
+	font-size: 2.3em;
+	padding: 5px 1%;
+	margin: 0;
+	}
+	
+#wrapper h2{
+	font-size: 2em;	
+	padding: 5px 1%;
+	margin: 0;
+	}
+	
+#wrapper dl, #wrapper p{
+	padding: 10px 4%;
+	margin: 0;
+	font-size: 1.6em;
+	}
+	
+#wrapper blockquote{
+	padding: 15px 4%;
+	margin: 0 5%;
+	font-size: 1.7em;
+	font-style: italic;
+	color: #777777;
+	font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+	}
+	
+#wrapper dl dt{
+	margin: 0;
+	font-weight: bold;
+	padding: 10px 0 5px 0;
+	color: #880000;
+	}
+	
+#wrapper dl dd{
+	margin: 0;
+	padding: 5px 0 10px 3%;
+	}
+	
+#wrapper dl a dd{
+	color: #333333;
+}
+
+#wrapper header p{
+	padding-left: 1%;
+	margin-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#content{
+    color: #333333;
+    padding-bottom: 15px;
+    
+	}
+	
+#content img{
+	padding: 15px 2%;
+	margin: 0 auto;
+	max-width: 94%;
+
+	}
+
+section{
+	margin: 15px 0;
+	border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+	}	
+
+section ul{
+	padding: 0;
+	margin: 0;
+	}
+	
+section ul li{
+	list-style-type: none;
+	padding: 10px 3%;
+	font-size: 1.6em; 
+	}
+	
+.featured-post h4{
+	font-size: 1.5em;
+	margin: 0;
+	padding: 5px 2%;	
+	}	
+
+.widget p{
+	font-size: 0.95em;	
+	}
+	
+.widget ul{
+	margin: 0;
+	padding: 0;
+	}
+	
+.widget li{
+	font-size: 1.8em;
+	list-style-type: none;
+	border-bottom: 1px solid #999999;
+	padding: 0.6em;
+	margin: 0;
+	width: auto;
+	}
+	
+a.button {
+	display: block;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#f07f7f 0%,
+		#a62424);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f07f7f),
+		to(#a62424));
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+	width: 80%;
+	margin: 15px auto;
+	font-size: 2em;
+	text-align: center;
+}
+
+a.button:hover {
+	display: block;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#a62424 0%,
+		#f07f7f);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a62424),
+		to(#f07f7f));
+	cursor: pointer;
+}
+	
+	
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clear{
+clear: both;
+}
+
+.print-show{
+	display: none;
+	}
+
+@media screen and (min-width: 40.625em){
+	aside .widget{
+		float: left;
+		width: 44%;
+		}
+		
+	#wrapper h1{
+		font-size: 3em;
+		}
+		
+	a.button{
+		width: 50%;
+		}
+		
+	.right{ float: right;}
+	}
+
+@media screen and (min-width: 55.652em){
+
+	#content{
+		float: left;
+		width: 67%;
+		}
+		
+	aside{
+		margin: 0 0 0 69%;
+		width: 33%;
+		}
+		
+	aside .widget{
+		float: none;
+		margin: 0;
+		width: 99%;
+		}
+		
+	a.button{
+		width: 40%;
+		}
+		
+	}
+	
+@media print{
+	body, p, ul, li, a, a:visited{
+		font-family: Georgia, serif;
+		color: #000000;
+		}
+		
+	a, a:visited{
+		font-style: italic;
+		}
+		
+	body, #wrapper p, #wrapper ul, #wrapper li, #wrapper dl dt, #wrapper dl dd{
+		color: #000000;
+		}
+		
+	#wrapper{
+		background: #FFFFFF;
+		font-size: 0.75em;
+		max-width: 80%;
+		}
+		
+	aside, .hide{
+		display: none;
+		}
+		
+	section{
+		border: 0;
+		
+		}
+		
+	header{
+		border-bottom: 1px solid #999999;
+		}
+		
+	.page-break{
+		page-break-after:always;
+		}
+		
+	.print-show{
+		display: block;
+		}
+
+	}
